@@ -1,0 +1,9 @@
+{
+  "name": "es6-cjs-browser",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npx webpack && python3 -m http.server 1111"
+  },
+  "type": "module"
+}
